@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+    color: beige;
+    font-weight: 300;
+    line-height: 20px;
+    background-color: black;
+
+}
+div{
+    display: block;
+}
+.main-content  .social li{
+    float: left;
+    margin-right: 20px;
+    margin-top: 0;
+    padding: 0;
+    color: black;
+}
+
+.main-content
+{
+    position: absolute;
+}
+
+.main-content h1{
+
+padding: 5px;
+margin-left: 50px;
+margin-top: 30px;
+}
+.main-content p
+{
+   
+    padding:5px;
+margin-left: 10px;
+margin-top: 20px;
+margin-bottom: 50px;
+
+}
+ul
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+
+li{
+    display: list-item;
+    margin-top: 0;
+    
+}
+#list-social
+{
+    list-style: none;
+    padding: 5px;
+margin-left: 50px;
+}
+ @media (min-width: 600px)
+ {
+     .main-content
+     {
+         background: url("") no-repeat;
+         height: 690px;
+         width: 100%;
+         margin-bottom: 10px;
+
+     }
+ }
+@media (max-width: 480px)
+{
+    #about .img-bg
+    {
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+}
+ #about .img-bg
+ {
+     border: 20px solid #b8a07e ;
+     margin-top: 20px;
+     margin-bottom: 30px;
+ }
+
+ @media (max-width :480px)
+ {
+     #about .about .begin
+     {
+         padding: 0;
+         
+         text-align: left;
+         margin-top: 10px;
+         margin-bottom: 5px;
+     }
+ }
+
+ .begin{
+     font-size: 30px;
+     line-height: 50px;
+     padding: 50px;
+     margin-top: 10px;
+ }
+ .after
+ {
+     font-size: 20px;
+     line-height: 30px;
+     padding: 50px;
+ }
+ 
+ #skills .row
+ {
+     margin-left: 100px;
+     margin-top: 20px;
+     align-items: center;
+     float: inherit;
+ }
+ #skills
+ {
+    margin-bottom: 20px;
+    margin-top: 60px;
+    background-color:#b8a07e;
+    width: 100%;
+    padding: 50px;
+}
+
+#portfolio h1{
+    text-align: center;
+    padding: 20px;
+    
+    margin-top: 30px;
+}
+#bootstrap
+{
+padding: 0;
+background: url("../../Pictures/bootstrap.PNG") no-repeat;
+width: 100%;
+height: 260px;
+background-position: center;
+margin: 10px;
+opacity: .5;
+position: relative;
+}
+#firstwebpage
+{
+padding: 0;
+background: url("../../Pictures/basic.PNG") no-repeat;
+width: 100%;
+height: 260px;
+background-position: center;
+margin: 10px;
+opacity: .5;
+position: relative;
+}
+#workshop
+{
+padding: 0;
+background: url("../../Pictures/workshop.PNG") no-repeat;
+width: 100%;
+height: 260px;
+margin: 10px;
+opacity: .5;
+position: relative;
+}
+#keras
+{
+    background: url("https://colab.research.google.com/img/colab_favicon_256px.png") no-repeat ;
+    
+    background-position: center;
+    height: 250px;
+    
+padding: 10px;
+margin: 10px;
+opacity: .5;
+position: relative;
+}
+#mlsa-cert
+{
+    background: url("../../Pictures/mlsa-cert.PNG") no-repeat ;
+    
+    background-position: center;
+    height: 250px;
+    width: 100%;
+padding: 10px;
+margin: 10px;
+opacity: .5;
+position: relative;
+}
+#shapeai-cert
+{
+    background: url("../../Pictures/shape-ai\ cert.PNG") no-repeat ;
+    
+    background-position: center;
+    height: 250px;
+    width: 100%;
+padding: 10px;
+margin: 10px;
+opacity: .5;
+position: relative;
+}
+#mlsa-cert:hover 
+{
+    opacity: 1;
+}
+#shapeai-cert:hover
+{
+    opacity: 1;
+}
+#bootstrap:hover 
+{
+    opacity: 1;
+}
+ #firstwebpage:hover 
+{
+    opacity: 1;
+}
+ #workshop:hover 
+{
+    opacity: 1;
+}
+ #keras:hover
+{
+    opacity: 1;
+}
+#bootstrap span  
+{
+    text-decoration: none;
+}
+.contact
+{
+    
+    background-color:#b8a07e;
+    
+
+}
+#contact-details
+{
+    margin-top: 80px;
+}
+#contact-details .header
+{
+    padding: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: -20px;
+}
+.panel-footer
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.footer-social
+{
+    display: inline-block;
+    margin: auto;
+    padding: 30px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+#footer-list-social ul
+{
+    display: list-item;
+    list-style: none;
+    width: 100%;
+   padding: 15px;
+}
+#footer-list-social li{
+    list-style: none;
+    padding: 10px;
+    
+    
+    display: inline;
+    
+   position: relative;
+}
+ .bi-instagram 
+ {
+     color: white;
+ }
+ .bi-linkedin
+ {
+color: white;
+ }
+ .bi-github
+ {
+color: white;
+ }
+
+ul > li > a > .bi-instagram:hover
+{
+    color:#b8a07e ;
+}
+ul > li > a > .bi-linkedin:hover
+{
+    color:#b8a07e ;
+}
+ul > li > a > .bi-github:hover
+{
+    color:#b8a07e ;
+}
