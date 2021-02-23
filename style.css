@@ -105,13 +105,14 @@ margin-left: 50px;
      font-size: 30px;
      line-height: 50px;
      padding: 50px;
-     margin-top: 10px;
+     margin: 10px 0px 16px;
  }
  .after
  {
      font-size: 20px;
      line-height: 30px;
      padding: 50px;
+     margin: 0px 0px 16px;
      
  }
  
